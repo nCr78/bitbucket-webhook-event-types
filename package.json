@@ -1,0 +1,25 @@
+{
+  "name": "bitbucket-webhook-event-types",
+  "version": "0.0.1",
+  "author": "El. Krm",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nCr78/bitbucket-webhook-event-types.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nCr78/bitbucket-webhook-event-types/issues"
+  },
+  "keywords": [
+    "bitbucket",
+    "bitbucket events",
+    "bitbucket webhooks",
+    "typescript",
+    "webhooks",
+    "typings",
+    "definitions"
+  ],
+  "projects": [
+    "https://github.com/nCr78/bitbucket-webhook-event-types"
+  ]
+}
