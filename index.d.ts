@@ -167,12 +167,10 @@ export namespace Bitbucket {
 }
 
 // Event Key Enumeration
-export enum BitbucketEventKeys {
-  RepositoryPush = 'repo:push',
-  PullRequestCreated = 'pullrequest:created',
-  PullRequestUpdated = 'pullrequest:updated',
-  PullRequestMerged = 'pullrequest:merged',
-  PullRequestDeclined = 'pullrequest:declined',
-  RepositoryFork = 'repo:fork',
-  RepositoryUpdated = 'repo:updated',
-}
+export type BitbucketEventKeys = 'repo:push'
+| 'pullrequest:created'
+| 'pullrequest:updated'
+| 'pullrequest:merged'
+| 'pullrequest:declined'
+| 'repo:fork'
+| 'repo:updated';
