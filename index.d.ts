@@ -164,15 +164,15 @@ export namespace Bitbucket {
       new: string | null;
     }
   }
+}
 
-  // Event Key Enumeration
-  enum EventKey {
-    RepositoryPush = 'repo:push',
-    PullRequestCreated = 'pullrequest:created',
-    PullRequestUpdated = 'pullrequest:updated',
-    PullRequestMerged = 'pullrequest:merged',
-    PullRequestDeclined = 'pullrequest:declined',
-    RepositoryFork = 'repo:fork',
-    RepositoryUpdated = 'repo:updated',
-  }
+// Event Key Enumeration
+export enum BitbucketEventKeys {
+  RepositoryPush = 'repo:push',
+  PullRequestCreated = 'pullrequest:created',
+  PullRequestUpdated = 'pullrequest:updated',
+  PullRequestMerged = 'pullrequest:merged',
+  PullRequestDeclined = 'pullrequest:declined',
+  RepositoryFork = 'repo:fork',
+  RepositoryUpdated = 'repo:updated',
 }
